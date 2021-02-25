@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+}
+
+/* ---------------------------------------------Hero block*/
+
+#hero-image {
+  background: url("../images/walking.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  object-fit: contain;
+  height: 350px;
+  width: 100%;
+  margin: 0;
+}
+
+#logo-image {
+background: url("../images/logo.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  left: 0;
+  height: 150px;
+  margin: 0;
+}
+
+#hero-text {
+    color: #fff;
+    font-family: "Recursive", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 60px;
+    padding: 20px;
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.5)
+}
+
+/* ---------------------------------------------Walking text*/
+
+#description {
+    color: #fff;
+    font-family: "Recursive", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    padding: 5px;
+    letter-spacing: 2px;
+    background-color: #56494c;
+}
+
+/* ---------------------------------------------Types of walking cards*/
+
+.card {
+    background-color: #31d895;
+}
+
+.card-img-top {
+    padding: 5px;
+}
+
+/* ---------------------------------------------Card buttons*/
+
+button {
+    color: #d5573b;
+    background-color: #045511;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------Google maps API*/
+
+div#map {min-height: 360px;}
+
+/* ---------------------------------------------Top 6 walks*/
+
+#walkLocations {
+    background-color: #31d895;
+}
+
+.topSixHeader {
+    padding: 20px;
+    color: #212529;
+}
+
+.topSix {
+    padding: 20px;
+    color: #212529;
+}
