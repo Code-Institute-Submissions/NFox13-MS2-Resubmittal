@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Walking Rocks!</title>
+</head>
+<body>
+    <section id="hero-image">
+        <div id="logo-image"></div>
+        <div id="hero-text">
+        <h2>Get walking, it rocks!</h2>
+        </div>
+    </section>
+    <section id="description">
+      <h6>
+        Walking is simple, free and one of the easiest ways to get more active, become healthier and lose weight.
+      </h6>
+      <h6>
+        Below are some examples of various walks in your locality and whether you are a seasoned athlete or not very active there is a walk suitable for you.
+      </h6>
+    </section>
+
+<div class="card-group">
+  <div class="card">
+    <img src="../assets/images/parkwalk.jpg" class="card-img-top" alt="image of walking in a park">
+    <div class="card-body">
+      <h5 class="card-title">Park walking</h5>
+      <p class="card-text">Park walking is suitable for everyone. The flat walkways are great for beginners, while the enclosed spaces mean it is suitable for small children also.</p>
+    </div>
+    <div class="card-footer">
+      <button onclick="displayAlert1()">Click here for a suitable walk</button>
+      <script src="js/script.js"></script>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../assets/images/lakewalk.jpg" class="card-img-top" alt="image of walking beside a lake">
+    <div class="card-body">
+      <h5 class="card-title">Lake walking</h5>
+      <p class="card-text">Lake walking is suitable for everyone but small children will require supervision when walking near to the waters edge.</p>
+    </div>
+    <div class="card-footer">
+       <button onclick="displayAlert2()">Click here for a suitable walk</button>
+      <script src="js/script.js"></script>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../assets/images/hillwalk.jpg" class="card-img-top" alt="image of walking up a hillside">
+    <div class="card-body">
+      <h5 class="card-title">Hill walking</h5>
+      <p class="card-text">Hill walking would be more suitable for the walker with more experience. Steep hills and open areas mean these walks would not be suitable for small children.</p>
+    </div>
+    <div class="card-footer">
+      <button onclick="displayAlert3()">Click here for a suitable walk</button>
+      <script src="js/script.js"></script>
+    </div>
+  </div>
+</div>
+<div id="map">
+<script src="js/maps.js"></script>
+</div>
+<section id="walkLocations">
+    <h6 class="topSixHeader">The above map is showing our top 6 walks for this month</h6>
+    <p class="topSix"> 1. Phoenix park <br>
+        2. Iveagh Gardens <br>
+        3. Dalkey hill <br>
+        4. Montpelier hill <br>
+        5. St. Stephen's green <br>
+        6. Dollymont strand
+    </p>
+</section>
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUZSuECtAijka-TDOvCu_9e0JjexyLD6E&callback=initMap"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
