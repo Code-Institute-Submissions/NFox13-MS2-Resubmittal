@@ -9,7 +9,6 @@ body, html {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  object-fit: contain;
   height: 350px;
   width: 100%;
   margin: 0;
