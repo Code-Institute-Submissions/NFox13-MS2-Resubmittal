@@ -17,14 +17,11 @@ body, html {
 #logo-image {
 background: url("../images/logo.jpg");
   background-repeat: no-repeat;
-  position: relative;
-  left: 0;
   height: 150px;
-  margin: 0;
 }
 
 #hero-text {
-    color: #fff;
+    color: #fefae0;
     font-family: "Recursive", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -37,19 +34,19 @@ background: url("../images/logo.jpg");
 /* ---------------------------------------------Walking text*/
 
 #description {
-    color: #fff;
+    color: #283618;
     font-family: "Recursive", sans-serif;
     text-transform: uppercase;
     position: relative;
     padding: 5px;
     letter-spacing: 2px;
-    background-color: #56494c;
+    background-color: #dda15e;
 }
 
 /* ---------------------------------------------Types of walking cards*/
 
 .card {
-    background-color: #31d895;
+    background-color: #606c38;
 }
 
 .card-img-top {
@@ -59,8 +56,8 @@ background: url("../images/logo.jpg");
 /* ---------------------------------------------Card buttons*/
 
 button {
-    color: #d5573b;
-    background-color: #045511;
+    color: #283618;
+    background-color: #dda15e;
     width: 200px;
     height: 50px;
     font-weight: bold;
@@ -73,15 +70,15 @@ div#map {min-height: 360px;}
 /* ---------------------------------------------Top 6 walks*/
 
 #walkLocations {
-    background-color: #31d895;
+    background-color: #dda15e;
 }
 
 .topSixHeader {
     padding: 20px;
-    color: #212529;
+    color: #283618;
 }
 
 .topSix {
     padding: 20px;
-    color: #212529;
+    color: #283618;
 }
