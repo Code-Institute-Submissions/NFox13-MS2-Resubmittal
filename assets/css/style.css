@@ -14,12 +14,6 @@ body, html {
   margin: 0;
 }
 
-#logo-image {
-background: url("../images/logo.jpg");
-  background-repeat: no-repeat;
-  height: 150px;
-}
-
 #hero-text {
     color: #fefae0;
     font-family: "Recursive", sans-serif;
