@@ -50,8 +50,8 @@ body, html {
 /* ---------------------------------------------Card buttons*/
 
 button {
-    color: #283618;
-    background-color: #dda15e;
+    color: #dda15e;
+    background-color: #606c38;
     width: 200px;
     height: 50px;
     font-weight: bold;
@@ -75,4 +75,10 @@ div#map {min-height: 360px;}
 .topSix {
     padding: 20px;
     color: #283618;
+}
+
+.membership {
+    padding: 20px;
+    color: #283618;
+    background-color: #dda15e;
 }
