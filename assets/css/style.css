@@ -28,13 +28,14 @@ body, html {
 /* ---------------------------------------------Walking text*/
 
 #description {
-    color: #283618;
-    font-family: "Recursive", sans-serif;
+    color: #212529;
+    font-family: -apple-system,BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
     text-transform: uppercase;
     position: relative;
-    padding: 5px;
+    padding: 20px;
     letter-spacing: 2px;
-    background-color: #dda15e;
+    background-color: #606c38;
 }
 
 /* ---------------------------------------------Types of walking cards*/
@@ -69,16 +70,16 @@ div#map {min-height: 360px;}
 
 .topSixHeader {
     padding: 20px;
-    color: #283618;
+    color: #212529;
 }
 
 .topSix {
     padding: 20px;
-    color: #283618;
+    color: #212529;
 }
 
 .membership {
     padding: 20px;
-    color: #283618;
+    color: #212529;
     background-color: #dda15e;
 }
