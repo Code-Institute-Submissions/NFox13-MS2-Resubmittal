@@ -9,3 +9,15 @@ function displayAlert2() {
 function displayAlert3() {
         alert("Hi! Walks 3 & 4 would be a suitable walk for you");
     }
+
+function calculateSubTotal() {
+
+}
+
+function calculateDiscount() {
+    
+}
+
+function calculateTotal() {
+    
+}
