@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function() {
+
+})
+
 function displayAlert1() {
         alert("Hi! Walks 1 & 5 would be a suitable walk for you");
     }

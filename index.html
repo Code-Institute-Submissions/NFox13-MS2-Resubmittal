@@ -14,11 +14,9 @@
 
 <body>
     <section id="hero-image">
-        <nav class="navbar navbar-light" style="background-color: rgb(255, 255, 255, 0.5);">
+        <nav class="navbar navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
                     <img src="assets/images/logo.jpg" alt="" width="192" height="96">
-                </a>
                 <h2 class="number">
                 <i class="fas fa-phone-square-alt" aria-hidden="true"></i> :
                 <a href="tel:5551234">555-1234</a>
@@ -39,6 +37,7 @@
         <h6>
             Below are some examples of various walks in your locality
         </h6>
+        <button onclick="window.location.href='#'">Continue</button>
     </section>
 
     <div class="card-group">
@@ -78,6 +77,9 @@
                 <script src="assets/js/script.js"></script>
             </div>
         </div>
+    </div>
+    <div class="card-Cont-Btn">
+        <button onclick="window.location.href='#'">Continue</button>
     </div>
     <section id="walkLocations">
         <h4 class="topSixHeader">Top 6 walks for this month</h4>
@@ -132,7 +134,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><input type="submit" value="Submit for total"></td>
+                    <td><input type="submit" value="Submit for total" onclick="calulateTotal()"></td>
                     <td></td>
                 </tr>
             </tbody>
