@@ -54,6 +54,16 @@ a:hover, a:active {
     background-color: #606c38;
 }
 
+/* ---------------------------------------------Scrolling buttons*/
+
+.Cont-Btn {    
+    background-color: #606c38;    
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    padding: 5px;
+    }
+
 /* ---------------------------------------------Types of walking cards*/
 
 .card {
@@ -74,9 +84,12 @@ button {
     font-weight: bold;
 }
 
-.card-Cont-Btn {
-    background-color: #606c38;
-}
+.card-footer {    
+    background-color: #606c38;    
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    }
 
 /* ---------------------------------------------Google maps API*/
 
