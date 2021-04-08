@@ -49,6 +49,7 @@ a:hover, a:active {
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
+    text-align: center;
     padding: 20px;
     letter-spacing: 2px;
     background-color: #606c38;
@@ -61,6 +62,7 @@ a:hover, a:active {
     display: flex;  
     justify-content: center;  
     align-items: center;
+    padding: 5px;
 }
 
 .cont-btn-btn-g {    
@@ -74,8 +76,8 @@ a:hover, a:active {
     height: 50px;
     font-family: "Recursive", sans-serif;
     font-weight: bold;
-    border: 2px;
-    border-color: #212529;
+    border: 0;
+    border-radius: 10px;
     }
 
 .cont-btn-btn-g:hover {
@@ -100,8 +102,8 @@ a:hover, a:active {
     height: 50px;
     font-family: "Recursive", sans-serif;
     font-weight: bold;
-    border: 2px;
-    border-color: #212529;
+    border: 0;
+    border-radius: 10px;
     }
 
 .cont-btn-btn:hover {
