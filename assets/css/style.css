@@ -180,6 +180,12 @@ a:hover, a:active {
 .topSix {
     padding: 20px;
     color: #212529;
+    background-color: #dda15e;
+}
+
+.walks {
+    color: #212529;
+    background-color: #dda15e;
 }
 
 /* ---------------------------------------------Membership*/
