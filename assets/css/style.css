@@ -45,8 +45,8 @@ a:hover, a:active {
 
 #description {
     color: #212529;
-    font-family: -apple-system,BlinkMacSystemFont, sans-serif;
-    font-weight: 400;
+    font-family: "Recursive", sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
     position: relative;
     padding: 20px;
@@ -56,32 +56,93 @@ a:hover, a:active {
 
 /* ---------------------------------------------Scrolling buttons*/
 
-.Cont-Btn {    
+.cont-btn-g {
     background-color: #606c38;    
     display: flex;  
     justify-content: center;  
     align-items: center;
+}
+
+.cont-btn-btn-g {    
+    background-color: #606c38;   
+    color: #212529;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
     padding: 5px;
+    width: 200px;
+    height: 50px;
+    font-family: "Recursive", sans-serif;
+    font-weight: bold;
+    border: 2px;
+    border-color: #212529;
     }
+
+.cont-btn-btn-g:hover {
+    background-color: #dda15e;
+}
+
+.cont-btn {
+    background-color: #dda15e;    
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+}
+
+.cont-btn-btn {    
+    background-color: #dda15e;  
+    color: #212529;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    font-family: "Recursive", sans-serif;
+    font-weight: bold;
+    border: 2px;
+    border-color: #212529;
+    }
+
+.cont-btn-btn:hover {
+    background-color: #606c38;
+}
 
 /* ---------------------------------------------Types of walking cards*/
 
 .card {
     background-color: #606c38;
+    border: 0;
+}
+
+.card-body { 
+    text-align: center;
+    border: 0;
+}
+
+.card-footer {
+    border: 0;
 }
 
 .card-img-top {
-    padding: 5px;
+    padding: 10px;
 }
 
 /* ---------------------------------------------Card buttons*/
 
-button {
-    color: #dda15e;
-    background-color: #606c38;
+.card-button {
+    color: #606c38;
+    background-color: #212529;
     width: 200px;
     height: 50px;
     font-weight: bold;
+    border-radius: 10px;
+    border: 4px
+}
+
+.card-button:hover {
+    color: #212529;
+    background-color: #606c38;
 }
 
 .card-footer {    
@@ -93,15 +154,25 @@ button {
 
 /* ---------------------------------------------Google maps API*/
 
-div#map {min-height: 360px;}
+.map-container {
+    background-color: #dda15e;  
+    padding: 20px;
+}
+
+#map {
+    min-height: 360px;
+    margin: 10px;
+}
 
 /* ---------------------------------------------Top 6 walks*/
 
 #walkLocations {
-    background-color: #dda15e;
+    background-color: #dda15e;  
+    margin: 0;
 }
 
 .topSixHeader {
+    text-align: center;
     padding: 20px;
     color: #212529;
 }

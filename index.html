@@ -16,11 +16,11 @@
     <section id="hero-image">
         <nav class="navbar navbar-light">
             <div class="container-fluid">
-                    <img src="assets/images/logo.jpg" alt="" width="192" height="96">
+                <img src="assets/images/logo.jpg" alt="" width="192" height="96">
                 <h2 class="number">
-                <i class="fas fa-phone-square-alt" aria-hidden="true"></i> :
-                <a href="tel:5551234">555-1234</a>
-              </h2>
+                    <i class="fas fa-phone-square-alt" aria-hidden="true"></i> :
+                    <a href="tel:5551234">555-1234</a>
+                </h2>
             </div>
         </nav>
         <div id="hero-text">
@@ -38,8 +38,8 @@
             Below are some examples of various walks in your locality
         </h6>
     </section>
-    <div class="Cont-Btn">
-        <button onclick="window.location.href='#'">Continue</button>
+    <div class="cont-btn-g">
+        <button class="cont-btn-btn-g" onclick="window.location.href='#'">Continue</button>
     </div>
 
     <div class="card-group">
@@ -51,7 +51,7 @@
                     while the enclosed spaces mean it is suitable for small children also.</p>
             </div>
             <div class="card-footer">
-                <button onclick="displayAlert1()">Click here for a suitable walk</button>
+                <button class="card-button" onclick="displayAlert1()">Click here for a suitable walk</button>
                 <script src="assets/js/script.js"></script>
             </div>
         </div>
@@ -63,7 +63,7 @@
                     when walking near to the waters edge.</p>
             </div>
             <div class="card-footer">
-                <button onclick="displayAlert2()">Click here for a suitable walk</button>
+                <button class="card-button" onclick="displayAlert2()">Click here for a suitable walk</button>
                 <script src="assets/js/script.js"></script>
             </div>
         </div>
@@ -75,37 +75,126 @@
                     hills and open areas mean these walks would not be suitable for small children.</p>
             </div>
             <div class="card-footer">
-                <button onclick="displayAlert3()">Click here for a suitable walk</button>
+                <button class="card-button" onclick="displayAlert3()">Click here for a suitable walk</button>
                 <script src="assets/js/script.js"></script>
             </div>
         </div>
     </div>
-    <div class="Cont-Btn">
-        <button onclick="window.location.href='#'">Continue</button>
+    <div class="cont-btn-g">
+        <button class="cont-btn-btn-g" onclick="window.location.href='#'">Continue</button>
     </div>
-    <section id="walkLocations">
-        <h4 class="topSixHeader">Top 6 walks for this month</h4>
-        <p class="topSix"> 1. Phoenix park <br>
-            2. Iveagh Gardens <br>
-            3. Dalkey hill <br>
-            4. Montpelier hill <br>
-            5. St. Stephen's green <br>
-            6. Dollymont strand
-        </p>
-        <div class="Cont-Btn">
-        <button onclick="window.location.href='#'">Continue</button>
+    <div id="walkLocations">
+        <div>
+            <h4 class="topSixHeader">Top 6 walks for this month</h4>
+        </div>
+        <div class="topSix">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="..." alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">1. Phoenix park</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="..." alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">2. Iveagh Gardens</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="..." alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">3. Dalkey hill</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="..." alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">4. Montpelier hill</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="..." alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">5. St. Stephen's green</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="..." alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">6. Dollymont strand</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-btn">
+            <button class="cont-btn-btn" onclick="window.location.href='#'">Continue</button>
+        </div>
     </div>
-    </section>
-    <div id="map">
-        <script src="assets/js/map.js"></script>
+    <div class="map-container">
+        <div id="map">
+            <script src="assets/js/map.js"></script>
+        </div>
     </div>
-    <div class="Cont-Btn">
-        <button onclick="window.location.href='#'">Continue</button>
+    <div class="cont-btn">
+        <button class="cont-btn-btn" onclick="window.location.href='#'">Continue</button>
     </div>
-
     <div class="membership">
         <h4>Annual membership</h4>
-        <h6>Why not become a member of our club to receive huge discounts on fantastic walking gear, weekly updates and go on 4 trips per year!</h6>
+        <h6>Why not become a member of our club to receive huge discounts on fantastic walking gear, weekly updates and
+            go on 4 trips per year!</h6>
         <table class="table table-dark table-hover">
             <thead>
                 <tr>
@@ -117,20 +206,23 @@
             <tbody>
                 <tr>
                     <th scope="row">Adult</th>
-                    <td><input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="1" type="number"></td>
+                    <td><input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="1"
+                            type="number"></td>
                     <td>&#8364 40.00</td>
                 </tr>
                 <tr>
                     <th scope="row">Child</th>
-                    <td><input class="quantity" id="id_form-1-quantity" min="0" name="form-0-quantity" value="1" type="number"></td>
+                    <td><input class="quantity" id="id_form-1-quantity" min="0" name="form-0-quantity" value="1"
+                            type="number"></td>
                     <td>&#8364 25.00</td>
                 </tr>
                 <tr>
                     <th scope="row">Student/OAP</th>
-                    <td><input class="quantity" id="id_form-2-quantity" min="0" name="form-0-quantity" value="1" type="number"></td>
+                    <td><input class="quantity" id="id_form-2-quantity" min="0" name="form-0-quantity" value="1"
+                            type="number"></td>
                     <td>&#8364 30.00</td>
                 </tr>
-                 <tr>
+                <tr>
                     <th scope="row"></th>
                     <td>Sub-total:</td>
                     <td></td>
@@ -148,8 +240,8 @@
             </tbody>
         </table>
     </div>
-    <div class="Cont-Btn">
-        <button onclick="window.location.href='#'">Continue</button>
+    <div class="cont-btn">
+        <button class="cont-btn-btn" onclick="window.location.href='#'">Continue</button>
     </div>
     <script
         src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
