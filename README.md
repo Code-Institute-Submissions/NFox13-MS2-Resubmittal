@@ -13,8 +13,9 @@ The wireframe was designed using [Wireframe.cc]( https://wireframe.cc/) links to
 I have opted for a simple design that I feel gets the information to the client effectively and directs them to the areas that they need to go.
 - The one page design should reduce confusion and give the user a pleasant, stressfree experience.
 ![Image showing responsiveness with different monitors](assets/images/responsiveness.jpg)
-In order to improve user experience and website loading speed, I have compressed the images using [tinypng.com](https://tinypng.com/) and the reduction in image size has been 46%.
+In order to improve user experience and website loading speed, I have compressed the images using [tinypng.com](https://tinypng.com/) and the reduction in image size has been 34% and 29%.
 ![tinypng image saving results](assets/images/tinypng.jpg)
+![tinypng image saving results 2](assets/images/tinypng2.jpg)
 # Visual Identity
 - [Logo maker](https://www.logomaker.com/) for the logo design
 - [Coolers](https://coolors.co/) for generating my colour scheme

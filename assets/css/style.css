@@ -161,7 +161,7 @@ a:hover, a:active {
 /* ---------------------------------------------Google maps API*/
 
 .map-container {
-    background-color: #dda15e;  
+    background-color: #dda15e; 
     padding: 20px;
 }
 
@@ -174,7 +174,7 @@ a:hover, a:active {
 
 #walkLocations {
     background-color: #dda15e;  
-    margin: 0;
+    padding: 20px;
 }
 
 .topSixHeader {
@@ -187,11 +187,18 @@ a:hover, a:active {
     padding: 20px;
     color: #212529;
     background-color: #dda15e;
+    justify-content: center;
 }
 
 .walks {
     color: #212529;
     background-color: #dda15e;
+}
+
+.top-6-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
 }
 
 /* ---------------------------------------------Membership*/
