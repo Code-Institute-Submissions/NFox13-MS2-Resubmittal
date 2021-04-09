@@ -1,12 +1,11 @@
 function initMap() {
         var map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 10,
-            center: {
-                lat: 53.3498,
-                lng: 6.2603
-            }
+            zoom: 8,
+            center: {lat: 53.3498, lng: 6.2603}
         });
-        var labels = "123456789";
+
+
+        /*var labels = "123456789";
 
         var locations = [
             { lat: 53.3559, lng: 6.3298 },
@@ -26,4 +25,4 @@ function initMap() {
 
         var markerCluster = new MarkerClusterer(map, markers, {
         imagePath:"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});
-        }
+        }*/

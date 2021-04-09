@@ -112,6 +112,10 @@ a:hover, a:active {
 
 /* ---------------------------------------------Types of walking cards*/
 
+.card-group {
+    background-color: #606c38;
+}
+
 .card {
     background-color: #606c38;
     border: 0;
