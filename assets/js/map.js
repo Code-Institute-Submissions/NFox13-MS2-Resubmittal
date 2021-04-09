@@ -4,25 +4,24 @@ function initMap() {
             center: {lat: 53.3498, lng: -6.2603}
         });
 
+        const labels = "123456";
 
-        var labels = "123456789";
-
-        var locations = [
-            { lat: 53.3559, lng: 6.3298 },
-            { lat: 53.3351, lng: 6.2610 },
-            { lat: 53.2694, lng: 6.1056 },
-            { lat: 53.2519, lng: 6.3303 },
-            { lat: 53.3396, lng: 6.2604 },
-            { lat: 53.2153, lng: 6.1049 }
-        ];
-
-        var markers = locations.map(function(location,i) {
-            return new google.maps.marker({
+        const markers = locations.map((location,i) => {
+            return new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+                label: labels[i % labels.length],
             });
         });
 
-        var markerCluster = new MarkerClusterer(map, markers, {
-        imagePath:"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});
+        new MarkerClusterer(map, markers, {
+        imagePath:"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",});
         }
+         const locations = [
+            { lat: 53.3559, lng: -6.3298 },
+            { lat: 53.3351, lng: -6.2610 },
+            { lat: 53.2694, lng: -6.1056 },
+            { lat: 53.2519, lng: -6.3303 },
+            { lat: 53.3396, lng: -6.2604 },
+            { lat: 53.2153, lng: -6.1049 }
+        ];
+        
