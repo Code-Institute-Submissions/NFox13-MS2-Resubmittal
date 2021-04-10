@@ -25,6 +25,7 @@
                     <i class="fas fa-phone-square-alt" aria-hidden="true"></i> :
                     <a href="tel:5551234">555-1234</a>
                 </h2>
+                <button class="msgBox">Display message box</button>
             </div>
         </nav>
         <div id="hero-text">
@@ -42,10 +43,11 @@
         <p>
             Below are some examples of various walks in your locality
         </p>
-    </section>
-    <div class="cont-btn-g">
+        <div class="cont-btn-g">
         <button class="cont-btn-btn-g" onclick="window.location.href='#types-of-walks'">Continue to types of walks</button>
     </div>
+    </section>
+    
 <a id="types-of-walks">
     <div class="card-group">
         <div class="card">
@@ -84,9 +86,9 @@
                 <script src="assets/js/script.js"></script>
             </div>
         </div>
-    </div>
-    <div class="cont-btn-g">
+        <div class="cont-btn-g">
         <button class="cont-btn-btn-g" onclick="window.location.href='#walk-locations'">Continue to top 6 walks this month</button>
+    </div>
     </div>
     </a>
     <a id="walk-locations">
@@ -245,7 +247,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><input type="submit" value="Submit for total" onclick="calulateTotal()"></td>
+                    <td><input type="submit" id="submit" value="Submit for total" onclick="calulateTotal()"></td>
                     <td></td>
                 </tr>
             </tbody>
