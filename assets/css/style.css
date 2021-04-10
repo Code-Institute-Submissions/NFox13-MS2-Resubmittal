@@ -158,6 +158,30 @@ a:hover, a:active {
     align-items: center;
     }
 
+.msgBox {
+        position:fixed; 
+        top: calc(50% - 25px); 
+        left: calc(50% - 50px);
+        width: 200px;
+        background: #eee;
+      }
+
+.msgBox p {
+        line-height: 1.5;
+        padding: 10px 20px;
+        color: #333;
+      }
+
+.msgBox button {
+        background: none;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1.1rem;
+        color: #aaa;
+      }
+
 /* ---------------------------------------------Google maps API*/
 
 .map-container {
@@ -209,30 +233,3 @@ a:hover, a:active {
     color: #212529;
     background-color: #dda15e;
 }
-
-/* ---------------------------------------------Message box trial*/
-
-.msgBox {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        width: 200px;
-        background: #eee;
-      }
-
-      .msgBox p {
-        line-height: 1.5;
-        padding: 10px 20px;
-        color: #333;
-      }
-
-      .msgBox button {
-        background: none;
-        border: none;
-        position: absolute;
-        top: 0;
-        right: 0;
-        font-size: 1.1rem;
-        color: #aaa;
-      }

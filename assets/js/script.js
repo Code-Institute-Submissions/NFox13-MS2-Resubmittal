@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 //Suitable walks alert buttons
-function displayAlert1() {
-        alert("Hi! Walks 1 & 5 would be a suitable walk for you");
+/*function displayAlert1() {
+        alert("");
     }
 
 function displayAlert2() {
@@ -13,11 +13,11 @@ function displayAlert2() {
 
 function displayAlert3() {
         alert("Hi! Walks 3 & 4 would be a suitable walk for you");
-    }
+    }*/
 
 //Display meesage trial
 
-const btn = document.querySelector('button');
+const btn = document.querySelector('#msgBox1');
 btn.onclick = displayMessage;
 
 function displayMessage() {
@@ -29,7 +29,7 @@ function displayMessage() {
     html.appendChild(panel);
 
     const msg = document.createElement("p");
-    msg.textContent = "This is a message box";
+    msg.textContent = "Hi! Walks 1 & 5 would be a suitable walk for you";
     panel.appendChild(msg);
 
     const closeBtn = document.createElement("button");
