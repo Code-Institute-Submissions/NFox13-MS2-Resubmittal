@@ -241,9 +241,29 @@ a:hover, a:active {
     padding: 10px;
 }
 
-.table {
-     display: inline-block;
-     text-align: center;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 0;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #283618}
+tr:nth-child(odd){background-color: #606c38}
+
+#submit {
+    color: white;
+    background-color: #606c38
+}
+
+#submit:hover {
+    color: #212529;
+    background-color: #dda15e;
 }
 
 /* ---------------------------------------------Contact*/
