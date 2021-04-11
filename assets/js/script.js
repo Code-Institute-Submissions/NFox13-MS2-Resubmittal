@@ -1,8 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-
-})
-
-
 //Suitable walks button
 console.clear();
 const buttonsList = document.querySelectorAll('button'), closeBtnList = document.querySelectorAll('.closebtn');
@@ -18,16 +13,4 @@ function handleCloseBtnClick(evt) {
 evt.target.parentElement.style.display = 'none';
 }
 
-
-//Membership calculator
-function calculateSubTotal() {
-
-}
-
-function calculateDiscount() {
-    
-}
-
-function calculateTotal() {
-    
-}
+  
