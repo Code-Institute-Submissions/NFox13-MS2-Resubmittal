@@ -241,3 +241,24 @@ a:hover, a:active {
 .mem-desc {
     padding: 10px;
 }
+
+/* ---------------------------------------------Contact*/
+
+.contact {
+    text-align: center;
+    padding: 20px;
+    color: #212529;
+    background-color: #dda15e;
+}
+
+.contact-heading {
+     padding: 20px;
+}
+
+.contact-txt {
+    padding: 10px;
+}
+
+.contact-form {
+    display: inline-block;
+}
