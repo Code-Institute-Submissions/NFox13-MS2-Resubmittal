@@ -57,8 +57,10 @@
                     while the enclosed spaces mean it is suitable for small children also.</p>
             </div>
             <div class="card-footer">
-                <button id="msgBox" class="card-button">Click here for a suitable walk</button>
-                <script src="assets/js/script.js"></script>
+                <button data-msg-id="alert1" class="card-button">Click here for our recommended walks</button>
+            </div>
+            <div id="alert1" class="alert">
+                <span class="closebtn">&times;</span> Phoenix park and St.Stephen's Green would be our recommended park walks for this month
             </div>
         </div>
         <div class="card">
@@ -69,8 +71,10 @@
                     when walking near to the waters edge.</p>
             </div>
             <div class="card-footer">
-                <button id="msgBox2" class="card-button">Click here for a suitable walk</button>
-                <script src="assets/js/script.js"></script>
+                <button data-msg-id="alert2" class="card-button">Click here for our recommended walks</button>
+            </div>
+            <div id="alert2" class="alert">
+                <span class="closebtn">&times;</span> Iveagh Gardens and Dollymount strand would be our recommended lake walks for this month
             </div>
         </div>
         <div class="card">
@@ -81,9 +85,12 @@
                     hills and open areas mean these walks would not be suitable for small children.</p>
             </div>
             <div class="card-footer">
-                <button id="msgBox3" class="card-button">Click here for a suitable walk</button>
-                <script src="assets/js/script.js"></script>
+                <button data-msg-id="alert3" class="card-button">Click here for our recommended walks</button>
             </div>
+            <div id="alert3" class="alert">
+                <span class="closebtn">&times;</span> Dalkey hill and Montpelier hill would be our recommended lake walks for this month
+            </div>
+            <script src="assets/js/script.js"></script>
         </div>
     </div>
      <div class="cont-btn-g">
@@ -212,7 +219,7 @@
                 <tr>
                     <th scope="col">Member type</th>
                     <th scope="col">Quantity</th>
-                    <th scope="col">Annual rate</th>
+                    <th scope="col">Annual rate (&#8364)</th>
                 </tr>
             </thead>
             <tbody>
@@ -232,7 +239,7 @@
                     <th scope="row">Student/OAP</th>
                     <td><input class="quantity" id="id_form-2-quantity" min="0" name="form-2-quantity" value="1"
                             type="number"></td>
-                    <td>&#8364 30.00</td>
+                    <td> 30.00</td>
                 </tr>
                 <tr>
                     <th scope="row"></th>
@@ -252,8 +259,10 @@
             </tbody>
         </table>
     </div>
+    <div>
     <div class="cont-btn">
         <button class="cont-btn-btn" onclick="window.location.href='#page-top'">Return to top</button>
+    </div>
     </div>
     </a>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>

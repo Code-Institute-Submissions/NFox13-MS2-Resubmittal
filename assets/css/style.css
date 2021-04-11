@@ -158,77 +158,24 @@ a:hover, a:active {
     align-items: center;
     }
 
-.msgBox {
-        position:fixed; 
-        top: calc(50% - 25px); 
-        left: calc(50% - 50px);
-        width: 200px;
-        background: #eee;
-      }
+/* ---------------------------------------------Suitable walks button alerts*/
+    .alert {
+	display: none;
+	padding: 20px;
+	background-color: #283618;
+	color: #fefae0;
+    }
 
-.msgBox p {
-        line-height: 1.5;
-        padding: 10px 20px;
-        color: #333;
-      }
-
-.msgBox button {
-        background: none;
-        border: none;
-        position: absolute;
-        top: 0;
-        right: 0;
-        font-size: 1.1rem;
-        color: #aaa;
-      }
-
-.msgBox2 {
-        position:fixed; 
-        top: calc(50% - 25px); 
-        left: calc(50% - 50px);
-        width: 200px;
-        background: #eee;
-      }
-
-.msgBox2 p {
-        line-height: 1.5;
-        padding: 10px 20px;
-        color: #333;
-      }
-
-.msgBox2 button {
-        background: none;
-        border: none;
-        position: absolute;
-        top: 0;
-        right: 0;
-        font-size: 1.1rem;
-        color: #aaa;
-      }
-
-.msgBox3 {
-        position:fixed; 
-        top: calc(50% - 25px); 
-        left: calc(50% - 50px);
-        width: 200px;
-        background: #eee;
-      }
-
-.msgBox3 p {
-        line-height: 1.5;
-        padding: 10px 20px;
-        color: #333;
-      }
-
-.msgBox3 button {
-        background: none;
-        border: none;
-        position: absolute;
-        top: 0;
-        right: 0;
-        font-size: 1.1rem;
-        color: #aaa;
-      }
+    .closebtn {
+	margin-left: 15px;
+	color: #fefae0;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+    }
 
 /* ---------------------------------------------Google maps API*/
 
