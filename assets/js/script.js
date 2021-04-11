@@ -18,6 +18,7 @@ function handleCloseBtnClick(evt) {
 evt.target.parentElement.style.display = 'none';
 }
 
+
 //Membership calculator
 function calculateSubTotal() {
 
