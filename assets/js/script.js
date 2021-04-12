@@ -13,4 +13,16 @@ function handleCloseBtnClick(evt) {
 evt.target.parentElement.style.display = 'none';
 }
 
-  
+//Current discount button
+function getDiscount() {
+  var greeting;
+  var time = new Date().getHours();
+  if (time < 12) {
+    greeting = "Good morning, there is a current Spring discount on annual membership of 10%";
+  } else if (time < 18) {
+    greeting = "Good afternoon, there is a current Spring discount on annual membership of 10%";
+  } else {
+    greeting = "Good evening, there is a current Spring discount on annual membership of 10%";
+  }
+  document.getElementById("discount").innerHTML = greeting;
+}  

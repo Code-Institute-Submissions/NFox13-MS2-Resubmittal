@@ -256,14 +256,22 @@ th, td {
 tr:nth-child(even){background-color: #283618}
 tr:nth-child(odd){background-color: #606c38}
 
-#submit {
+.discBtn {
     color: white;
     background-color: #606c38
 }
 
-#submit:hover {
+.discBtn:hover {
     color: #212529;
     background-color: #dda15e;
+}
+
+#discount {
+    background-color: #283618;
+    color: #fefae0;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
 }
 
 /* ---------------------------------------------Contact*/
