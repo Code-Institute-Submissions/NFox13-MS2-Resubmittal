@@ -1,24 +1,36 @@
 ![Walking rocks logo](assets/images/logo.jpg)
 
 # Description
-*This is a fictitious application*
-> Walking rocks is an app fror people who are interested in walking, to learn about walks in their location.
+*Walking rocks are a fictitious group*
+> Walking rocks is a walking group set up to encourage people to get out walking and get more activity in their lifestyle.
+> The website was created for people who are interested in walking and would be interested in joining the Walking rocks group.
+> As more people are becoming increasingly health conscious, this website would like to inform people where there are suitable walks where they can walk safely and even meet other people from the group. 
 > Walking rocks will publish their top 6 walks every month with walks included that will suit all abilities from beginners, familes to experienced walkers.
+> Annual membership entitles members to receive updates and join the group on an annual group walk.
 # Deployment and Demo
-Website has been deployed to [GitHub Pages](https://nfox13.github.io/MS2--Interactive-Frontend-Development/).
+Website has been deployed to [GitHub Pages](https://nfox13.github.io/MS2-Resubmittal/).
+- On deployment of the website I realised that my images would not load when deployed so I had to rectify the image paths.
 # Wireframe
 The wireframe was designed using [Wireframe.cc]( https://wireframe.cc/) links to the original version can be found below:
 - [Wireframe original idea](assets/images/wireframe.jpg)
 # UX
 I have opted for a simple design that I feel gets the information to the client effectively and directs them to the areas that they need to go.
 - The one page design should reduce confusion and give the user a pleasant, stressfree experience.
-![Image showing responsiveness with different monitors](assets/images/responsiveness.jpg)
-In order to improve user experience and website loading speed, I have compressed the images using [tinypng.com](https://tinypng.com/) and the reduction in image size has been 34% and 29%.
+# Responsiveness
+I have tested the responsiveness of the webpage manually using the developer tools inspect option but on deployment I tested the responsiveness again using [Am I Responsive](http://ami.responsivedesign.is/).
+![Image showing responsiveness with different monitors](assets/images/amiresponsive.jpg)
+# Compress images
+In order to improve user experience and website loading speed, I have compressed the images using [tinypng.com](https://tinypng.com/) and the reduction in image size has been 34% and 29% which reduced my images by 2711kb.
 ![tinypng image saving results](assets/images/tinypng.jpg)
 ![tinypng image saving results 2](assets/images/tinypng2.jpg)
 # Visual Identity
+The Logo and colour were created with nature in mind. Walking rocks as a name has walking and rocks in it which are also keeping to the theme. The people that we expect to join our group are interesting in the earth, health, nature and wellbeing and I feel the earthy colours, name and logo add to this.
 - [Logo maker](https://www.logomaker.com/) for the logo design
+
+![Logo design](assets/images/logo.jpg)
 - [Coolers](https://coolors.co/) for generating my colour scheme
+
+![Logo design](assets/images/colourscheme.jpg)
 # User Stories
 Users:
 - As a user, I'd like to know what walking facilities are close to my location
@@ -27,16 +39,28 @@ Users:
 App provider:
 - As an app provider, I'd like to see where the demand is for walking and what services could be offered to the walkers 
 # Testing
-Website has been tested using [GTmetrix](https://gtmetrix.com/reports/nfox13.github.io/VNjoX5k6/) see results below:
-![Website Speed Test Results](assets/images/speedTest.jpg)
-During testing my google maps API loads initially then stops and gives an error, I have tried to rectify this but unfortunately I did not have the time to get this working correctly before my submission deadline.
-To improve on the app with more time I would tidy up the card images and hero logo. I will play around with the walking rocks logo and make it more sleek and blend it in to the hero logo.
-Most importantly, I would rectify the issues with the google maps API. 
-HTML and CSS has been tested using W3C validator and the javascript has been tested using jshint.com
+Website has been tested using [GTmetrix](https://gtmetrix.com/) see results below:
+![Website Speed Test Results](assets/images/gtmetrix1.jpg)
+![Website Speed Test Results](assets/images/gtmetrix2.jpg)
+
+HTML has been tested using W3C validator
+
+![HTML validator Test Results](assets/images/html-validator.jpg)
+
+CSS has been tested using W3C Jigsaw validator
+
+![Jigsaw CSS validator Test Results](assets/images/css-validator.jpg)
+
+Javascript has been tested using jshint.com
+
+![J.shint Javascript validator Test Results](assets/images/mapjs-validator.jpg)
+![J.shint Javascript validator Test Results](assets/images/scriptjs-validator.jpg)
+
+To improve on the app with more time I would like to include a forum for people to comment to arrange walks between members and also a calculator for calculating membership and an option to sign up and pay membership.
 
 # Technologies
 - [Bootstrap](https://getbootstrap.com/)
-- Googlemaps API
+- [Googlemaps-API] (https://developers.google.com/maps)
 
 # Media
 I have used different resources for images, my logo, colour scheme etc.
@@ -56,5 +80,6 @@ I would also like to thank the following for their part in this project
 - Github
 - Gitpod
 - Code Institute tutorials
-- W3 schools
+- W3 schools, Which I find extremely useful as a basis to most of my code
+- Stackoverflow
 - All of the above had an input or gave inspiration to various elements of this project
