@@ -57,4 +57,4 @@ I would also like to thank the following for their part in this project
 - Gitpod
 - Code Institute tutorials
 - W3 schools
-All of the above had an input or gave inspiration to various elements of this project
+- All of the above had an input or gave inspiration to various elements of this project
