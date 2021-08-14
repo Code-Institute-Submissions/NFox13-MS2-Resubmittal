@@ -50,20 +50,55 @@
         </div>
       </nav>
 </header>
+
 <body>
-    <section id="hero-image">
-        <div class="col-7 col-md-6 my-auto">
-            <h1 id="hero-text" class="display-4 logo-font">
-                Get walking, it rocks!
-            </h1>
+    <div class="membership">
+        <div class="mem-head">
+            <h4>Annual membership</h4>
         </div>
-        <div class="my-5">
-            <h4>
-                <a href="#" class="browse-walks-button btn btn-lg rounded-0 text-uppercase py-3">Browse our top walks</a>
-            </h4>
+        <div class="mem-desc">
+            <h5>Why not become a member of our club for huge discounts on fantastic walking gear, receive weekly
+                updates and members are invited on an annual walk to one of a number popular location with free food
+                and a personal t-shirt!</h5>
         </div>
-    </section>
-       
+        <div>
+            <table class="table table-dark table-hover">
+                <tr>
+                    <th scope="col">Member type</th>
+                    <th scope="col">Annual rate</th>
+                </tr>
+                <tr>
+                    <td>Adult</td>
+                    <td> &#8364; 40.00 </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Child</td>
+                    <td> &#8364; 25.00 </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Student/OAP</td>
+                    <td> &#8364; 30.00 </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="discBtn" onclick="getDiscount()">Click here for current discount details</button></td>
+                </tr>
+            </table>
+            <p id="discount"></p>
+        </div>
+        
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script
@@ -72,5 +107,4 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUZSuECtAijka-TDOvCu_9e0JjexyLD6E&callback=initMap"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
-
 </html>
