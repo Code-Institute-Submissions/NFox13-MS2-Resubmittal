@@ -46,22 +46,6 @@ body, html {
     color: #fefae0;
 }
 
-.email {
-    color: #fefae0;
-}
-
-.number {
-    color: #fefae0;
-}
-
-a:link, a:visited {
-  color: #fefae0;
-}
-
-a:hover, a:active {
-  color: #dda15e;
-}
-
 .nav-item {
     color: black;
     font-family: "Recursive", sans-serif;
@@ -80,7 +64,7 @@ a:hover, a:active {
 /* ---------------------------------------------Walking text*/
 
 #description {
-    color: #212529;
+    color: black;
     font-family: "Recursive", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -88,72 +72,17 @@ a:hover, a:active {
     text-align: center;
     padding: 20px;
     letter-spacing: 2px;
-    background-color: #606c38;
-}
-
-/* ---------------------------------------------Scrolling buttons*/
-
-.cont-btn-g {
-    background-color: #606c38;    
-    display: flex;  
-    justify-content: center;  
-    align-items: center;
-    padding: 5px;
-}
-
-.cont-btn-btn-g {    
-    background-color: #606c38;   
-    color: #212529;
-    display: flex;  
-    justify-content: center;  
-    align-items: center;
-    padding: 5px;
-    width: 200px;
-    height: 50px;
-    font-family: "Recursive", sans-serif;
-    font-weight: bold;
-    border: 0;
-    border-radius: 10px;
-    }
-
-.cont-btn-btn-g:hover {
     background-color: #dda15e;
-}
-
-.cont-btn {
-    background-color: #dda15e;    
-    display: flex;  
-    justify-content: center;  
-    align-items: center;
-}
-
-.cont-btn-btn {    
-    background-color: #dda15e;  
-    color: #212529;
-    display: flex;  
-    justify-content: center;  
-    align-items: center;
-    padding: 5px;
-    width: 200px;
-    height: 50px;
-    font-family: "Recursive", sans-serif;
-    font-weight: bold;
-    border: 0;
-    border-radius: 10px;
-    }
-
-.cont-btn-btn:hover {
-    background-color: #606c38;
 }
 
 /* ---------------------------------------------Types of walking cards*/
 
 .card-group {
-    background-color: #606c38;
+    background-color: #dda15e;
 }
 
 .card {
-    background-color: #606c38;
+    background-color: #dda15e;
     border: 0;
 }
 
@@ -173,8 +102,8 @@ a:hover, a:active {
 /* ---------------------------------------------Card buttons*/
 
 .card-button {
-    color: #606c38;
-    background-color: #212529;
+    color: #dda15e;
+    background-color: black;
     width: 200px;
     height: 50px;
     font-weight: bold;
@@ -183,12 +112,12 @@ a:hover, a:active {
 }
 
 .card-button:hover {
-    color: #212529;
-    background-color: #606c38;
+    color: black;
+    background-color: #dda15e;
 }
 
 .card-footer {    
-    background-color: #606c38;    
+    background-color: #dda15e;    
     display: flex;  
     justify-content: center;  
     align-items: center;
@@ -198,7 +127,7 @@ a:hover, a:active {
     .alert {
 	display: none;
 	padding: 20px;
-	background-color: #283618;
+	background-color: #606c38;
 	color: #fefae0;
     }
 
@@ -262,8 +191,10 @@ a:hover, a:active {
 .membership {
     text-align: center;
     padding: 20px;
-    color: #212529;
+    color: black;
     background-color: #dda15e;
+    background-size: cover;
+    height: 100vh;
 }
 
 .mem-head {
@@ -312,8 +243,28 @@ tr:nth-child(odd){background-color: #606c38}
 .contact {
     text-align: center;
     padding: 20px;
-    color: #212529;
+    color: black;
     background-color: #dda15e;
+    background-size: cover;
+    height: 100vh;
+}
+
+a:link, a:visited {
+    color: #fefae0;
+    font-family: "Recursive", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    padding: 3px;
+}
+  
+a:hover, a:active {
+    color: #606c38;
+    font-family: "Recursive", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    padding: 3px;
 }
 
 .contact-heading {
