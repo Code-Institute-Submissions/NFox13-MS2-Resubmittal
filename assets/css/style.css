@@ -28,8 +28,8 @@ body, html {
 }
 
 .browse-walks-button {
-    background: black;
-    color: #fefae0;
+    background: #fefae0 ;
+    color: black;
     min-width: 260px;
 }
 
@@ -253,7 +253,7 @@ tr:nth-child(odd){background-color: #606c38}
 }
 
 a:link, a:visited {
-    color: black;
+    color: #fefae0;
     font-family: "Recursive", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
