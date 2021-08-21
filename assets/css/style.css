@@ -253,10 +253,10 @@ tr:nth-child(odd){background-color: #606c38}
 }
 
 a:link, a:visited {
-    color: #fefae0;
+    color: black;
     font-family: "Recursive", sans-serif;
-    text-transform: uppercase;
     font-weight: bold;
+    text-transform: uppercase;
     font-size: large;
     padding: 3px;
 }
@@ -271,7 +271,12 @@ a:hover, a:active {
 }
 
 .contact-heading {
-     padding: 20px;
+    padding: 20px;
+    color: black;
+    font-family: "Recursive", sans-serif;
+    text-transform: uppercase;
+    font-size: large;
+    padding: 3px;
 }
 
 .contact-txt {
