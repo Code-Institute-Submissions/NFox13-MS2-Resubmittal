@@ -58,6 +58,22 @@ Javascript has been tested using jshint.com
 
 To improve on the app with more time I would like to include a forum for people to comment to arrange walks between members and also a calculator for calculating membership and an option to sign up and pay membership.
 
+# Deployment
+Deployed using GitHub Pages accessed via the link below
+ - https://nfox13.github.io/MS2-Resubmittal/
+ index.html is main content page with nabar links to all other pages
+
+  **Process**
+   1. Created a Github account at https://github.com My account: https://github.com/NFox13
+
+   2. Created Github Repo using Code Institute template: https://github.com/NFox13/MS2-Resubmittal
+
+   3. To deploy the project and see it on the web go to Settings tab, scroll down to the heading: GitHub Pages. Under the Source setting, Use drop-down menu to select master branch as a publishing source and save. Refresh the github page, and you are then given a url where your page is published. The site is now published on gitHub pages at https://nfox13.github.io/MS2-Resubmittal/
+
+   4. To run this code on your local machine, you would go to my respository at https://github.com/NFox13/MS2-Resubmittal and on the home page on the right hand side just above all the files, you will see a green button that says, "Clone or download", this button will give you the options to clone with HTTPS, open in desktop or download as a zip file. Then --> click the clipboard item to copy the Https address of the repo.
+   Open Git Bash/Terminal: 
+   CD the working directory to the location where you want the cloned directory to be made. You can use mkdir command to make a new directory, then cd into this directory. Type git clone, and then paste the URL: https://github.com/NFox13/MS2-Resubmittal Press Enter. The clone is created.
+
 # Technologies
 - [Bootstrap](https://getbootstrap.com/)
 - [Googlemaps-API] (https://developers.google.com/maps)
