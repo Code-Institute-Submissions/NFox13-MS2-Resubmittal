@@ -2,90 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="The best walking club ever!" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Walking Rocks!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="The best walking club ever!" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">(function () { emailjs.init("user_4w4nfHetOHkHymjWRoT7U"); })();</script>
+  <title>Walking Rocks!</title>
 </head>
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a href="#">
-          <img src="assets/images/logo.jpg" alt="Walking rocks logo" width="192" height="96">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about_us.html">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="top_walks.html">Top Walks</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="membership.html">Membership</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
+    <div class="container-fluid">
+      <a href="#">
+        <img src="assets/images/logo.jpg" alt="Walking rocks logo" width="192" height="96">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about_us.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="top_walks.html">Top Walks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="membership.html">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 </header>
 
 <body>
-    <div class="contact">
-        <div class="contact-heading">
-            <h4>Contact Walking rocks</h4>
-        </div>
-        <div>
-          <div class="contact-details">
-            <a class="contact-email" href="mailto:info@walkingrocks.ie"><i class="fas fa-envelope-square"> E-mail: info@walkingrocks.ie</i></a>
-          </div>
-          <div class="contact-details">
-            <a class="contact-number" href="tel:5551234"><i class="fas fa-phone-square"> Telephone: 555-1234</i></a>
-          </div>
-        </div>
-        <div class="contact-txt">
-            <h5>
-                Please enter your details below and a member of the Walking rocks team will be in contact
-            </h5>
-        </div>
-        <form class="col-md-4 contact-form" action="https://formdump.codeinstitute.net/" method="POST">
-            <div class="form-group">
-                <label for="name" aria-label="name field for user to fill up">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Insert name here"
-                    aria-label="this is the input field for name" required />
-            </div>
-            <div class="form-group">
-                <label for="email" aria-label="email field for user to fill up">E-mail</label>
-                <input type="email" class="form-control" id="email" placeholder="Insert email here"
-                    aria-label="this is the input field for email" required />
-            </div>
-            <div class="form-group">
-                <label for="number" aria-label="contact number field for user to fill up">Contact
-                    number</label>
-                <input type="tel" class="form-control" id="number" placeholder="Insert contact number here"
-                    aria-label="this is the input field for contact number" />
-            </div>
-            <input type="submit" name="submit" value="Send"
-                aria-label="This is a submit button for contact form" />
-        </form>
+  <div class="contact">
+    <div class="contact-heading">
+      <h4>Contact Walking rocks</h4>
     </div>
-    <div class="cont-btn">
-        <button class="cont-btn-btn" onclick="window.location.href='#page-top'">Return to top</button>
+    <div>
+      <div class="contact-details">
+        <a class="contact-email" href="mailto:info@walkingrocks.ie"><i class="fas fa-envelope-square"> E-mail:
+            info@walkingrocks.ie</i></a>
+      </div>
+      <div class="contact-details">
+        <a class="contact-number" href="tel:5551234"><i class="fas fa-phone-square"> Telephone: 555-1234</i></a>
+      </div>
     </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <div class="contact-txt">
+      <h5>
+        Please enter your details below and a member of the Walking rocks team will be in contact
+      </h5>
+    </div>
+    <form class="col-md-4 contact-form" onsubmit="return sendMail(this);">
+      <div class="form-group">
+        <label for="name" aria-label="name field for user to fill up">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Insert name here"
+          aria-label="this is the input field for name" required />
+      </div>
+      <div class="form-group">
+        <label for="email" aria-label="email field for user to fill up">E-mail</label>
+        <input type="email" class="form-control" id="email" placeholder="Insert email here"
+          aria-label="this is the input field for email" required />
+      </div>
+      <div class="form-group">
+        <label for="number" aria-label="contact number field for user to fill up">Contact
+          number</label>
+        <input type="tel" class="form-control" id="number" placeholder="Insert contact number here"
+          aria-label="this is the input field for contact number" />
+      </div>
+      <input type="submit" name="submit" value="Send" aria-label="This is a submit button for contact form" />
+    </form>
+  </div>
+  <div class="cont-btn">
+    <button class="cont-btn-btn" onclick="window.location.href='#page-top'">Return to top</button>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/email.js"></script>
 </body>
+
 </html>
