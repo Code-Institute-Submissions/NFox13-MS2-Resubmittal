@@ -30,6 +30,7 @@ body, html {
 .browse-walks-button {
     min-width: 260px;
     color: black;
+    background-color: #fefae0;
 }
 
 .container{

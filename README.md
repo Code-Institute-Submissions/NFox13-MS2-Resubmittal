@@ -7,18 +7,35 @@
 > As more people are becoming increasingly health conscious, this website would like to inform people where there are suitable walks where they can walk safely and even meet other people from the group. 
 > Walking rocks will publish their top 6 walks every month with walks included that will suit all abilities from beginners, familes to experienced walkers.
 > Annual membership entitles members to receive updates and join the group on an annual group walk.
-# Deployment and Demo
+
+# Deployment
 Website has been deployed to [GitHub Pages](https://nfox13.github.io/MS2-Resubmittal/).
-- On deployment of the website I realised that my images would not load when deployed so I had to rectify the image paths.
+ index.html is main content page with nabar links to all other pages
+
+  **Process**
+   1. Created a Github account at https://github.com My account: https://github.com/NFox13
+
+   2. Created Github Repo using Code Institute template: https://github.com/NFox13/MS2-Resubmittal
+
+   3. To deploy the project and see it live go to Settings tab, scroll down to the heading: GitHub Pages. Under the Source setting, Use drop-down menu to select master branch as a publishing source and save. Refresh the github page, and you are then given a url where your page is published. The site is now published on gitHub pages at https://nfox13.github.io/MS2-Resubmittal/
+
+   4. To run this code on your local machine, go to my respository at https://github.com/NFox13/MS2-Resubmittal on the home page on the right hand side there is a button that says, "Code", this button will give you the options to clone with HTTPS, open in desktop or download as a zip file. To clone the repository using HTTPS, under "Clone with HTTPS", click the clone icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the clone icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the clone icon.
+   
+   5. Open Git Bash. Change the current working directory to the location where you want the cloned directory. Type git clone, and then paste the URL you copied earlier.
+   $ git clone https://github.com/NFox13/MS2-Resubmittal
+   Press Enter to create your local clone.
+
+
 # Wireframe
 The wireframe was designed using [Wireframe.cc]( https://wireframe.cc/) links to the original version can be found below:
 - [Wireframe original idea](assets/images/wireframe.jpg)
+- The original concept was a single page design but, after receiving negative feedback for navigation, I changed the design to a multi page design with navbar.
 # UX
 I have opted for a simple design that I feel gets the information to the client effectively and directs them to the areas that they need to go.
-- The one page design should reduce confusion and give the user a pleasant, stressfree experience.
+- The multi page design should reduce confusion and give the user a pleasant, stressfree experience.
 # Responsiveness
 I have tested the responsiveness of the webpage manually using the developer tools inspect option but on deployment I tested the responsiveness again using [Am I Responsive](http://ami.responsivedesign.is/).
-![Image showing responsiveness with different monitors](assets/images/amiresponsive.jpg)
+![Image showing responsiveness with different monitors](assets/images/amiresponsive2.jpg)
 # Compress images
 In order to improve user experience and website loading speed, I have compressed the images using [tinypng.com](https://tinypng.com/) and the reduction in image size has been 34% and 29% which reduced my images by 2711kb.
 ![tinypng image saving results](assets/images/tinypng.jpg)
@@ -33,11 +50,19 @@ The Logo and colour were created with nature in mind. Walking rocks as a name ha
 ![Logo design](assets/images/colourscheme.jpg)
 # User Stories
 Users:
-- As a user, I'd like to know what walking facilities are close to my location
-- As a user, I'd like to learn more about what walks are available for various abilities
-- As a user, I'd like to know if there are walks available for small children/families 
+- As a user, I would like to find out about recommended walks
+- As a user, I would like to be able to see where the recommended walks are located and how to travel to the location
+- As a user, I would like to learn more about what walks are suitable for various abilities
+- As a user, I would like to know if there are recommended walks suitable for small children/families 
+- As a user, I would like to join a walking group and meet people with similar interests
+
 App provider:
-- As an app provider, I'd like to see where the demand is for walking and what services could be offered to the walkers 
+- As an app provider, I would like to create a walking group
+- As an app provider, I would like to recommend suitable walks monthly and give some information on each walk 
+- As an app provider, I would like to provide a service to help people with similar interests come together
+- As an app provider, I would like to offer walking attire at a reduced rate to members of the walking group and perhaps add an ecommerce section to the app in the future
+- As an app provider, I would like to promote a healthier lifestyle
+
 # Testing
 Website has been tested using [GTmetrix](https://gtmetrix.com/) see results below:
 ![Website Speed Test Results](assets/images/gtmetrix1.jpg)
@@ -57,22 +82,6 @@ Javascript has been tested using jshint.com
 ![J.shint Javascript validator Test Results](assets/images/scriptjs-validator.jpg)
 
 To improve on the app with more time I would like to include a forum for people to comment to arrange walks between members and also a calculator for calculating membership and an option to sign up and pay membership.
-
-# Deployment
-Deployed using GitHub Pages accessed via the link below
- - https://nfox13.github.io/MS2-Resubmittal/
- index.html is main content page with nabar links to all other pages
-
-  **Process**
-   1. Created a Github account at https://github.com My account: https://github.com/NFox13
-
-   2. Created Github Repo using Code Institute template: https://github.com/NFox13/MS2-Resubmittal
-
-   3. To deploy the project and see it on the web go to Settings tab, scroll down to the heading: GitHub Pages. Under the Source setting, Use drop-down menu to select master branch as a publishing source and save. Refresh the github page, and you are then given a url where your page is published. The site is now published on gitHub pages at https://nfox13.github.io/MS2-Resubmittal/
-
-   4. To run this code on your local machine, you would go to my respository at https://github.com/NFox13/MS2-Resubmittal and on the home page on the right hand side just above all the files, you will see a green button that says, "Clone or download", this button will give you the options to clone with HTTPS, open in desktop or download as a zip file. Then --> click the clipboard item to copy the Https address of the repo.
-   Open Git Bash/Terminal: 
-   CD the working directory to the location where you want the cloned directory to be made. You can use mkdir command to make a new directory, then cd into this directory. Type git clone, and then paste the URL: https://github.com/NFox13/MS2-Resubmittal Press Enter. The clone is created.
 
 # Technologies
 - [Bootstrap](https://getbootstrap.com/)
