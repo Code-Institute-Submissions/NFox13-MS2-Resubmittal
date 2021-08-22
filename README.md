@@ -4,7 +4,7 @@
 *Walking rocks are a fictitious group*
 > Walking rocks is a walking group set up to encourage people to get out walking and get more activity in their lifestyle.
 > The website was created for people who are interested in walking and would be interested in joining the Walking rocks group.
-> As more people are becoming increasingly health conscious, this website would like to inform people where there are suitable walks where they can walk safely and even meet other people from the group. 
+> As more people are becoming increasingly health conscious, this website would like to inform people where there are recommended walks where they can walk safely and even meet other people from the group. 
 > Walking rocks will publish their top 6 walks every month with walks included that will suit all abilities from beginners, familes to experienced walkers.
 > Annual membership entitles members to receive updates and join the group on an annual group walk.
 
@@ -34,6 +34,7 @@ The wireframe was designed using [Wireframe.cc]( https://wireframe.cc/) links to
 I have opted for a simple design that I feel gets the information to the client effectively and directs them to the areas that they need to go.
 - The multi page design should reduce confusion and give the user a pleasant, stressfree experience.
 # Responsiveness
+The responsiveness was developed so users can have a pleasant experience on desktop, laptop, tablet or mobile.
 I have tested the responsiveness of the webpage manually using the developer tools inspect option but on deployment I tested the responsiveness again using [Am I Responsive](http://ami.responsivedesign.is/).
 ![Image showing responsiveness with different monitors](assets/images/amiresponsive2.jpg)
 # Compress images
@@ -63,7 +64,38 @@ App provider:
 - As an app provider, I would like to offer walking attire at a reduced rate to members of the walking group and perhaps add an ecommerce section to the app in the future
 - As an app provider, I would like to promote a healthier lifestyle
 
+## Future improvements
+- To improve on the app with more time I would like to include a forum for people to comment to arrange walks between members and also a calculator for calculating membership and an option to sign up and pay membership.
+- I would also like to add an ecommerce section to promote and sell walking clothing and accessories and maybe healthy foods.
+
 # Testing
+
+### Navigation
+
+All links were checked and work as intended.
+
+#### Mobile Navigation
+
+A hamburger style collapse is in operation for users on small screen devices.
+
+#### Desktop Navigation
+
+A full width navbar is in operation allowing users to see their options in an easy to follow format.
+
+### Responsiveness
+
+This application was tested for responsiveness across a variety of devices to ensure content remained readable and editable on various screen sizes.
+
+The navigation, layout and various functionalities were tested across various screen sizes with Chrome Developer Tools.
+
+These tests were performed on the following devices and browsers:
+
+    Samsung Internet on Samsung Galaxy S7
+    Chrome and Firefox on Windows based 15" Laptop
+    Chrome and Firefox on Windows based 24" Desktop
+
+Tests were conducted by various friends and family.
+
 Website has been tested using [GTmetrix](https://gtmetrix.com/) see results below:
 ![Website Speed Test Results](assets/images/gtmetrix1.jpg)
 ![Website Speed Test Results](assets/images/gtmetrix2.jpg)
@@ -81,9 +113,10 @@ Javascript has been tested using jshint.com
 ![J.shint Javascript validator Test Results](assets/images/mapjs-validator.jpg)
 ![J.shint Javascript validator Test Results](assets/images/scriptjs-validator.jpg)
 
-To improve on the app with more time I would like to include a forum for people to comment to arrange walks between members and also a calculator for calculating membership and an option to sign up and pay membership.
-
 # Technologies
+- HTML
+- CSS
+- JavaScript
 - [Bootstrap](https://getbootstrap.com/)
 - [Googlemaps-API] (https://developers.google.com/maps)
 
@@ -95,6 +128,19 @@ All are listed below:
 - [Unsplash](https://unsplash.com/) for all the images
 - [Am I Responsive](http://ami.responsivedesign.is/) for the responsive image in the UX section
 - [Coolers]( https://coolors.co/) for generating my colour scheme
+
+### Image credits
+<span>Photo by <a href="https://unsplash.com/@henry2cute?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Henry Xu</a> on <a href="https://unsplash.com/s/photos/walking-group?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a href="https://unsplash.com/@krisijanis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Krisjanis Mezulis</a> on <a href="https://unsplash.com/s/photos/hill-walking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a href="https://unsplash.com/@illiyapresents?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Illiya Vjestica</a> on <a href="https://unsplash.com/s/photos/lake-walking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a href="https://unsplash.com/@mralidoost?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mohammadreza alidoost</a> on <a href="https://unsplash.com/s/photos/park-walking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+Photo by <a href="https://unsplash.com/@jamie_davies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Davies</a> on <a href="https://unsplash.com/s/photos/hill-walk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@nathan_w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Watson</a> on <a href="https://unsplash.com/s/photos/hill-walk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@el_chicho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Narciso Arellano</a> on <a href="https://unsplash.com/s/photos/lake?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@mbenna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Benna</a> on <a href="https://unsplash.com/s/photos/park?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@giginkrishnan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gigin Krishnan</a> on <a href="https://unsplash.com/s/photos/park?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@sarahberriman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sarah Berriman</a> on <a href="https://unsplash.com/s/photos/sea-walk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 # Thanks to
 I would also like to thank the following for their part in this project
 - Font awesome
