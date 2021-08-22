@@ -11,7 +11,7 @@
 # Deployment
 Website has been deployed to [GitHub Pages](https://nfox13.github.io/MS2-Resubmittal/).
 
-index.html is main content page with nabar links to all other pages
+index.html is the home landing page with nabar links to all other pages
 
   **Process**
    1. Created a Github account at https://github.com My account: https://github.com/NFox13
@@ -34,6 +34,12 @@ The wireframe was designed using [Wireframe.cc]( https://wireframe.cc/) links to
 # UX
 I have opted for a simple design that I feel gets the information to the client effectively and directs them to the areas that they need to go.
 - The multi page design should reduce confusion and give the user a pleasant, stressfree experience.
+- The user lands on a home page showing a group of people walking with a prompt to "get walking, it rocks" which is a play with the app name.
+- From the landing page the options are clearly shown and the user can choose to read about the group, check out the top walks, review membership costs or contact the team.
+- The about us page gives a little narrative about the group and the types of walks. On clicking the type of walk the user is interested in they will be notified of recommeneded walks of that type.
+- The top walks page shows the top 6 walks for that month and conveniently shows the walk location on the map with corresponding numbers.
+- The membership page informs the user of the membership fee's should they choose to join and also a clickable discount button advises of the current discount with a changing greeting depending on the time of day.
+- The contact page gives the groups contact details with clickable links for email and telephone. There is also a contact form that sends the details to the app provider and returns an email to the user that a member of the team would contact them as soon as possible.
 # Responsiveness
 The responsiveness was developed so users can have a pleasant experience on desktop, laptop, tablet or mobile.
 I have tested the responsiveness of the webpage manually using the developer tools inspect option but on deployment I tested the responsiveness again using [Am I Responsive](http://ami.responsivedesign.is/).
