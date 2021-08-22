@@ -10,7 +10,8 @@
 
 # Deployment
 Website has been deployed to [GitHub Pages](https://nfox13.github.io/MS2-Resubmittal/).
- index.html is main content page with nabar links to all other pages
+
+index.html is main content page with nabar links to all other pages
 
   **Process**
    1. Created a Github account at https://github.com My account: https://github.com/NFox13
@@ -81,6 +82,12 @@ A hamburger style collapse is in operation for users on small screen devices.
 #### Desktop Navigation
 
 A full width navbar is in operation allowing users to see their options in an easy to follow format.
+
+#### Contact form
+
+The contact form uses emailjs, this has been tested and works as intended.
+
+On submittal of the form the app provider receives an emal with the contact details of the person contacting and then the person contacting receives an email to say that a member of the Walking rocks team will be in contact. The form refreshes to show it has been submitted.
 
 ### Responsiveness
 
