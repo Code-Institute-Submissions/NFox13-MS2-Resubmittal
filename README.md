@@ -130,16 +130,16 @@ All are listed below:
 - [Coolers]( https://coolors.co/) for generating my colour scheme
 
 ### Image credits
-<span>Photo by <a href="https://unsplash.com/@henry2cute?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Henry Xu</a> on <a href="https://unsplash.com/s/photos/walking-group?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-<span>Photo by <a href="https://unsplash.com/@krisijanis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Krisjanis Mezulis</a> on <a href="https://unsplash.com/s/photos/hill-walking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-<span>Photo by <a href="https://unsplash.com/@illiyapresents?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Illiya Vjestica</a> on <a href="https://unsplash.com/s/photos/lake-walking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-<span>Photo by <a href="https://unsplash.com/@mralidoost?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mohammadreza alidoost</a> on <a href="https://unsplash.com/s/photos/park-walking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-Photo by <a href="https://unsplash.com/@jamie_davies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Davies</a> on <a href="https://unsplash.com/s/photos/hill-walk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-Photo by <a href="https://unsplash.com/@nathan_w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Watson</a> on <a href="https://unsplash.com/s/photos/hill-walk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-Photo by <a href="https://unsplash.com/@el_chicho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Narciso Arellano</a> on <a href="https://unsplash.com/s/photos/lake?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-Photo by <a href="https://unsplash.com/@mbenna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Benna</a> on <a href="https://unsplash.com/s/photos/park?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-Photo by <a href="https://unsplash.com/@giginkrishnan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gigin Krishnan</a> on <a href="https://unsplash.com/s/photos/park?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-Photo by <a href="https://unsplash.com/@sarahberriman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sarah Berriman</a> on <a href="https://unsplash.com/s/photos/sea-walk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <span>Photo by <a href="https://unsplash.com/@henry2cute?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Henry Xu</a> on <a href="https://unsplash.com/s/photos/walking-group?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+- <span>Photo by <a href="https://unsplash.com/@krisijanis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Krisjanis Mezulis</a> on <a href="https://unsplash.com/s/photos/hill-walking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+- <span>Photo by <a href="https://unsplash.com/@illiyapresents?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Illiya Vjestica</a> on <a href="https://unsplash.com/s/photos/lake-walking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+- <span>Photo by <a href="https://unsplash.com/@mralidoost?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mohammadreza alidoost</a> on <a href="https://unsplash.com/s/photos/park-walking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+- Photo by <a href="https://unsplash.com/@jamie_davies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Davies</a> on <a href="https://unsplash.com/s/photos/hill-walk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@nathan_w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Watson</a> on <a href="https://unsplash.com/s/photos/hill-walk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@el_chicho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Narciso Arellano</a> on <a href="https://unsplash.com/s/photos/lake?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@mbenna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Benna</a> on <a href="https://unsplash.com/s/photos/park?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@giginkrishnan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gigin Krishnan</a> on <a href="https://unsplash.com/s/photos/park?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@sarahberriman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sarah Berriman</a> on <a href="https://unsplash.com/s/photos/sea-walk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 # Thanks to
 I would also like to thank the following for their part in this project
@@ -151,6 +151,8 @@ I would also like to thank the following for their part in this project
 - Github
 - Gitpod
 - Code Institute tutorials
-- W3 schools, Which I find extremely useful as a basis to most of my code
+- W3 schools
 - Stackoverflow
+- [Felipe Alarcon](https://github.com/fandressouza) my course mentor for his feedback.
+- Family and friends for their help in testing, support and advice.
 - All of the above had an input or gave inspiration to various elements of this project
