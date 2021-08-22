@@ -24,4 +24,4 @@ function initMap() {
             { lat: 53.3396, lng: -6.2604 },
             { lat: 53.2153, lng: -6.1049 }
         ];
-        
+   

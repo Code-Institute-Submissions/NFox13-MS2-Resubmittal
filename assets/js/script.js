@@ -25,4 +25,4 @@ function getDiscount() {
     greeting = "Good evening, there is a current Spring discount on annual membership of 10%";
   }
   document.getElementById("discount").innerHTML = greeting;
-}  
+}

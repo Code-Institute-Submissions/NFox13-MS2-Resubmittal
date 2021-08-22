@@ -104,21 +104,21 @@ These tests were performed on the following devices and browsers:
 Tests were conducted by various friends and family.
 
 Website has been tested using [GTmetrix](https://gtmetrix.com/) see results below:
-![Website Speed Test Results](assets/images/gtmetrix1.jpg)
-![Website Speed Test Results](assets/images/gtmetrix2.jpg)
+![Website Speed Test Results](assets/images/gtmetrix3.jpg)
 
 HTML has been tested using W3C validator
 
-![HTML validator Test Results](assets/images/html-validator.jpg)
+![HTML validator Test Results](assets/images/html_validator2.jpg)
 
 CSS has been tested using W3C Jigsaw validator
 
-![Jigsaw CSS validator Test Results](assets/images/css-validator.jpg)
+![Jigsaw CSS validator Test Results](assets/images/jigsaw_validator.jpg)
 
 Javascript has been tested using jshint.com
 
-![J.shint Javascript validator Test Results](assets/images/mapjs-validator.jpg)
-![J.shint Javascript validator Test Results](assets/images/scriptjs-validator.jpg)
+![J.shint Javascript validator Test Results](assets/images/jshint_email.jpg)
+![J.shint Javascript validator Test Results](assets/images/jshint_map.jpg)
+![J.shint Javascript validator Test Results](assets/images/jshint_script.jpg)
 
 # Technologies
 - HTML
